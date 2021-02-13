@@ -1,6 +1,4 @@
-package AddTwoNumbersProblem;
-
-import java.util.LinkedList;
+package Problem2_AddTwoNumbers;
 
 public class Driver {
     //Driver Code
@@ -13,7 +11,9 @@ public class Driver {
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
 
-        ListNode resultingList = AddTwoNumbers.addTwoNumbers(l1, l2);
+        Solution algorithm = new Solution();
+
+        ListNode resultingList = algorithm.addTwoNumbers(l1, l2);
         System.out.print("Resultant List: ");
         while (resultingList != null) {
             System.out.print(resultingList.val + " ");

@@ -1,6 +1,6 @@
-package TwoSumProblem;
+package Problem1_TwoSum;
 
-class TwoSum {
+public class Solution {
     //Implemented Solution
     public int[] twoSum(int[] nums, int target) {
         int currentValue = 0;
@@ -10,7 +10,7 @@ class TwoSum {
 
         for (int i = 0; i < nums.length; i++){
             currentValue = nums[i];
-            for (int j = i+1; j < nums.length; j++){
+            for (int j = i + 1; j < nums.length; j++){
                 nextValue = nums[j];
                 sumOfValues = currentValue + nextValue;
                 if (sumOfValues == target){

@@ -1,4 +1,4 @@
-package AddTwoNumbersProblem;
+package Problem2_AddTwoNumbers;
 
 //Supplied definition of linked list
 public class ListNode {

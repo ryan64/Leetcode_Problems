@@ -1,6 +1,6 @@
-package AddTwoNumbersProblem;
+package Problem2_AddTwoNumbers;
 
-public class AddTwoNumbers {
+public class Solution {
     //Implemented solution
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode headOfNewList = null;
